@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2024-01-10T20:25:32.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SBU5ZNNeIEIOj_rAZb76" version="22.1.18" type="device">
+  <diagram name="Page-1" id="OmgO-xmR0iTEP8iFGfth">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_vjUcSk2iloZZ75kr4mQ-4" value="Admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vjUcSk2iloZZ75kr4mQ-5" value="Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vjUcSk2iloZZ75kr4mQ-6" value="Executive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vjUcSk2iloZZ75kr4mQ-7" value="Create Manager" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_vjUcSk2iloZZ75kr4mQ-8" value="Create Manager" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
