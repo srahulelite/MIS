@@ -1,0 +1,35 @@
+<!-- app/templates/supervisor_view.html -->
+{% extends "base.html" %}
+{% block title %}Supervisor View{% endblock %}
+{% block content %}
+    <h2>Supervisor View</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Employee</th>
+                <th>Project</th>
+                <th>Task</th>
+                <th>Hours</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in entries %}
+            <tr>
+                <td>{{ entry.user.username }}</td>
+                <td>{{ entry.project.name }}</td>
+                <td>{{ entry.task.name }}</td>
+                <td>{{ entry.hours }}</td>
+                <td>{{ entry.date }}</td>
+                <td>{{ entry.status }}</td>
+                <td>
+                    <a href="{{ url_for('approve_entry', entry_id=entry.id) }}" class="btn btn-success">Approve</a>
+                    <a href="{{ url_for('reject_entry', entry_id=entry.id) }}" class="btn btn-danger">Reject</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
